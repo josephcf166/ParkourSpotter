@@ -7,13 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7233633A2B7CED8F00438EA8 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723363392B7CED8F00438EA8 /* Media.swift */; };
+		7247E42C2B82C7AE0003DDE2 /* Superbase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7247E42B2B82C7AE0003DDE2 /* Superbase.swift */; };
+		7247E42F2B82C8070003DDE2 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 7247E42E2B82C8070003DDE2 /* Auth */; };
+		7247E4312B82C8070003DDE2 /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 7247E4302B82C8070003DDE2 /* Functions */; };
+		7247E4332B82C8070003DDE2 /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 7247E4322B82C8070003DDE2 /* PostgREST */; };
+		7247E4352B82C8070003DDE2 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 7247E4342B82C8070003DDE2 /* Realtime */; };
+		7247E4372B82C8070003DDE2 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 7247E4362B82C8070003DDE2 /* Storage */; };
+		7247E4392B82C8070003DDE2 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 7247E4382B82C8070003DDE2 /* Supabase */; };
+		7247E43D2B837EF60003DDE2 /* getRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7247E43C2B837EF60003DDE2 /* getRating.swift */; };
+		72AAC2EA2B275415002FF6A9 /* AddSpotReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AAC2E92B275415002FF6A9 /* AddSpotReview.swift */; };
+		72BCA3712B260220009CC151 /* SpotDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BCA3702B260220009CC151 /* SpotDetailsView.swift */; };
+		72D5F8592B5EC97500788354 /* Colour scheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D5F8582B5EC97500788354 /* Colour scheme.swift */; };
+		72D5F85B2B5EDB3700788354 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D5F85A2B5EDB3700788354 /* StarView.swift */; };
+		72D5F85D2B603AB700788354 /* SpotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D5F85C2B603AB700788354 /* SpotView.swift */; };
+		72D5F85F2B603B9100788354 /* SpotReviewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D5F85E2B603B9100788354 /* SpotReviewsView.swift */; };
+		72D5F8612B603BFE00788354 /* SpotMediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D5F8602B603BFE00788354 /* SpotMediaView.swift */; };
+		72D5F8632B606E1F00788354 /* NewMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D5F8622B606E1F00788354 /* NewMapView.swift */; };
+		72D5F8672B65556800788354 /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D5F8662B65556800788354 /* Reviews.swift */; };
 		72E47CD02B24EE4F0050DAB0 /* ParkourAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E47CCF2B24EE4F0050DAB0 /* ParkourAppApp.swift */; };
-		72E47CD22B24EE4F0050DAB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E47CD12B24EE4F0050DAB0 /* ContentView.swift */; };
 		72E47CD42B24EE500050DAB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72E47CD32B24EE500050DAB0 /* Assets.xcassets */; };
 		72E47CD72B24EE500050DAB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72E47CD62B24EE500050DAB0 /* Preview Assets.xcassets */; };
 		72E47CE12B24EE500050DAB0 /* ParkourAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E47CE02B24EE500050DAB0 /* ParkourAppTests.swift */; };
 		72E47CEB2B24EE500050DAB0 /* ParkourAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E47CEA2B24EE500050DAB0 /* ParkourAppUITests.swift */; };
 		72E47CED2B24EE500050DAB0 /* ParkourAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E47CEC2B24EE500050DAB0 /* ParkourAppUITestsLaunchTests.swift */; };
+		72E47CFB2B24EF850050DAB0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E47CFA2B24EF850050DAB0 /* MapView.swift */; };
+		72E47CFD2B24EF910050DAB0 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E47CFC2B24EF910050DAB0 /* WorkoutView.swift */; };
+		72E47CFF2B24EF9C0050DAB0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E47CFE2B24EF9C0050DAB0 /* ProfileView.swift */; };
+		72E47D012B2502350050DAB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E47D002B2502350050DAB0 /* ContentView.swift */; };
+		72E47D042B2526710050DAB0 /* Markers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E47D032B2526710050DAB0 /* Markers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +56,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		723363392B7CED8F00438EA8 /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		7247E42B2B82C7AE0003DDE2 /* Superbase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Superbase.swift; sourceTree = "<group>"; };
+		7247E43C2B837EF60003DDE2 /* getRating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getRating.swift; sourceTree = "<group>"; };
+		72AAC2E92B275415002FF6A9 /* AddSpotReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSpotReview.swift; sourceTree = "<group>"; };
+		72BCA3702B260220009CC151 /* SpotDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotDetailsView.swift; sourceTree = "<group>"; };
+		72D5F8582B5EC97500788354 /* Colour scheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colour scheme.swift"; sourceTree = "<group>"; };
+		72D5F85A2B5EDB3700788354 /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
+		72D5F85C2B603AB700788354 /* SpotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotView.swift; sourceTree = "<group>"; };
+		72D5F85E2B603B9100788354 /* SpotReviewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotReviewsView.swift; sourceTree = "<group>"; };
+		72D5F8602B603BFE00788354 /* SpotMediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotMediaView.swift; sourceTree = "<group>"; };
+		72D5F8622B606E1F00788354 /* NewMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMapView.swift; sourceTree = "<group>"; };
+		72D5F8662B65556800788354 /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
 		72E47CCC2B24EE4F0050DAB0 /* ParkourApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkourApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72E47CCF2B24EE4F0050DAB0 /* ParkourAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkourAppApp.swift; sourceTree = "<group>"; };
-		72E47CD12B24EE4F0050DAB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		72E47CD32B24EE500050DAB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72E47CD62B24EE500050DAB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		72E47CDC2B24EE500050DAB0 /* ParkourAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkourAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +77,11 @@
 		72E47CE62B24EE500050DAB0 /* ParkourAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkourAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72E47CEA2B24EE500050DAB0 /* ParkourAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkourAppUITests.swift; sourceTree = "<group>"; };
 		72E47CEC2B24EE500050DAB0 /* ParkourAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkourAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		72E47CFA2B24EF850050DAB0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		72E47CFC2B24EF910050DAB0 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		72E47CFE2B24EF9C0050DAB0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		72E47D002B2502350050DAB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		72E47D032B2526710050DAB0 /* Markers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Markers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +89,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7247E4332B82C8070003DDE2 /* PostgREST in Frameworks */,
+				7247E4312B82C8070003DDE2 /* Functions in Frameworks */,
+				7247E4392B82C8070003DDE2 /* Supabase in Frameworks */,
+				7247E42F2B82C8070003DDE2 /* Auth in Frameworks */,
+				7247E4372B82C8070003DDE2 /* Storage in Frameworks */,
+				7247E4352B82C8070003DDE2 /* Realtime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +115,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72AAC2E62B2753D0002FF6A9 /* Spot */ = {
+			isa = PBXGroup;
+			children = (
+				7247E43C2B837EF60003DDE2 /* getRating.swift */,
+				72BCA3702B260220009CC151 /* SpotDetailsView.swift */,
+				72AAC2E92B275415002FF6A9 /* AddSpotReview.swift */,
+				72D5F85C2B603AB700788354 /* SpotView.swift */,
+				72D5F85E2B603B9100788354 /* SpotReviewsView.swift */,
+				72D5F8602B603BFE00788354 /* SpotMediaView.swift */,
+			);
+			path = Spot;
+			sourceTree = "<group>";
+		};
 		72E47CC32B24EE4F0050DAB0 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +151,11 @@
 		72E47CCE2B24EE4F0050DAB0 /* ParkourApp */ = {
 			isa = PBXGroup;
 			children = (
+				72E47CF92B24EF550050DAB0 /* Views */,
 				72E47CCF2B24EE4F0050DAB0 /* ParkourAppApp.swift */,
-				72E47CD12B24EE4F0050DAB0 /* ContentView.swift */,
+				72E47D002B2502350050DAB0 /* ContentView.swift */,
+				7247E42B2B82C7AE0003DDE2 /* Superbase.swift */,
+				72D5F8582B5EC97500788354 /* Colour scheme.swift */,
 				72E47CD32B24EE500050DAB0 /* Assets.xcassets */,
 				72E47CD52B24EE500050DAB0 /* Preview Content */,
 			);
@@ -127,6 +187,30 @@
 			path = ParkourAppUITests;
 			sourceTree = "<group>";
 		};
+		72E47CF92B24EF550050DAB0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72AAC2E62B2753D0002FF6A9 /* Spot */,
+				72E47D022B2526400050DAB0 /* MapView */,
+				72E47CFC2B24EF910050DAB0 /* WorkoutView.swift */,
+				72E47CFE2B24EF9C0050DAB0 /* ProfileView.swift */,
+				72D5F85A2B5EDB3700788354 /* StarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		72E47D022B2526400050DAB0 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				72E47CFA2B24EF850050DAB0 /* MapView.swift */,
+				72D5F8622B606E1F00788354 /* NewMapView.swift */,
+				72E47D032B2526710050DAB0 /* Markers.swift */,
+				72D5F8662B65556800788354 /* Reviews.swift */,
+				723363392B7CED8F00438EA8 /* Media.swift */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +227,14 @@
 			dependencies = (
 			);
 			name = ParkourApp;
+			packageProductDependencies = (
+				7247E42E2B82C8070003DDE2 /* Auth */,
+				7247E4302B82C8070003DDE2 /* Functions */,
+				7247E4322B82C8070003DDE2 /* PostgREST */,
+				7247E4342B82C8070003DDE2 /* Realtime */,
+				7247E4362B82C8070003DDE2 /* Storage */,
+				7247E4382B82C8070003DDE2 /* Supabase */,
+			);
 			productName = ParkourApp;
 			productReference = 72E47CCC2B24EE4F0050DAB0 /* ParkourApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +307,9 @@
 				Base,
 			);
 			mainGroup = 72E47CC32B24EE4F0050DAB0;
+			packageReferences = (
+				7247E42D2B82C8070003DDE2 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			productRefGroup = 72E47CCD2B24EE4F0050DAB0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +352,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72E47CD22B24EE4F0050DAB0 /* ContentView.swift in Sources */,
+				72BCA3712B260220009CC151 /* SpotDetailsView.swift in Sources */,
+				72D5F8612B603BFE00788354 /* SpotMediaView.swift in Sources */,
+				72E47CFB2B24EF850050DAB0 /* MapView.swift in Sources */,
+				72E47D012B2502350050DAB0 /* ContentView.swift in Sources */,
+				72D5F8592B5EC97500788354 /* Colour scheme.swift in Sources */,
+				72E47CFF2B24EF9C0050DAB0 /* ProfileView.swift in Sources */,
+				7233633A2B7CED8F00438EA8 /* Media.swift in Sources */,
+				72D5F8672B65556800788354 /* Reviews.swift in Sources */,
+				72E47CFD2B24EF910050DAB0 /* WorkoutView.swift in Sources */,
+				72D5F85F2B603B9100788354 /* SpotReviewsView.swift in Sources */,
+				72D5F85D2B603AB700788354 /* SpotView.swift in Sources */,
 				72E47CD02B24EE4F0050DAB0 /* ParkourAppApp.swift in Sources */,
+				72D5F8632B606E1F00788354 /* NewMapView.swift in Sources */,
+				72E47D042B2526710050DAB0 /* Markers.swift in Sources */,
+				72D5F85B2B5EDB3700788354 /* StarView.swift in Sources */,
+				72AAC2EA2B275415002FF6A9 /* AddSpotReview.swift in Sources */,
+				7247E42C2B82C7AE0003DDE2 /* Superbase.swift in Sources */,
+				7247E43D2B837EF60003DDE2 /* getRating.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +535,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ParkourApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "this app needs location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +564,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ParkourApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "this app needs location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -582,6 +695,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7247E42D2B82C8070003DDE2 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase-community/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7247E42E2B82C8070003DDE2 /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7247E42D2B82C8070003DDE2 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		7247E4302B82C8070003DDE2 /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7247E42D2B82C8070003DDE2 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		7247E4322B82C8070003DDE2 /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7247E42D2B82C8070003DDE2 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		7247E4342B82C8070003DDE2 /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7247E42D2B82C8070003DDE2 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		7247E4362B82C8070003DDE2 /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7247E42D2B82C8070003DDE2 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		7247E4382B82C8070003DDE2 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7247E42D2B82C8070003DDE2 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 72E47CC42B24EE4F0050DAB0 /* Project object */;
 }
